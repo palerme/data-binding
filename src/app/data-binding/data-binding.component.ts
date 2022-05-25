@@ -10,10 +10,7 @@ export class DataBindingComponent implements OnInit {
   valorAtual: string = '';
   valorSalvo: string = '';
   isMouseOver: boolean = false;
-
-
-
-
+  
   botaoClicado() {
     alert('Botao Clicado!');
   }
